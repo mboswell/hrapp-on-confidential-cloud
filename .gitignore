@@ -348,3 +348,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Python Env
+02-acl-ledger-python/venv/*
+
+# Certificate files
+*.pem
+
+# PPTX files
+*.pptx
