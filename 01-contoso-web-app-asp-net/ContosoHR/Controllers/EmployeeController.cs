@@ -100,7 +100,7 @@ namespace ContosoHR.Controllers
                 string queryRecord = localTime + " | " + userName + "@contoso.com" + " | " + queryString;
 
                 // Append text to an new/existing file named "querylogs.txt"
-                string logPath = "D:\\ContosoHR_logs";
+                string logPath = "C:\\ContosoHR_logs";
 
                 using (StreamWriter outputFile = new StreamWriter(Path.Combine(logPath, "querylogs.txt"), true))
                 {
